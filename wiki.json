@@ -8,83 +8,13 @@
     "name": "О нас",
     "file": "/about.mdx"
   },
-  "rules": {
-    "name": "Правила сервера",
-    "file": "/rules.mdx"
-  },
-  "start": {
-    "group": "Начать игру",
-    "pages": {
-      "": {
-        "name": "Как начать играть?",
-        "file": "/start/index.mdx"
-      },
-      "bedrock": {
-        "name": "Как играть с Bedrock?",
-        "file": "/start/bedrock.mdx"
-      }
-    }
-  },
-  "gameplay": {
-    "group": "Геймплей и механики",
-    "pages": {
-      "plugins": {
-        "name": "Плагины",
-        "file": "/gameplay/plugins.mdx"
-      },
-      "commands": {
-        "name": "Команды",
-        "file": "/gameplay/commands.mdx"
-      },
-      "rewards": {
-        "name": "Награды",
-        "file": "/gameplay/rewards.mdx"
-      },
-      "advancements": {
-        "name": "Достижения",
-        "file": "/gameplay/advancements.mdx",
-        "show": false
-      },
-      "creative": {
-        "name": "Креатив сервер",
-        "file": "/gameplay/creative.mdx"
-      },
-      "features": {
-        "name": "Фиксы и фичи",
-        "file": "/gameplay/features.mdx",
-        "show": false
-      },
-      "skins": {
-        "name": "Система скинов",
-        "file": "/gameplay/skin.mdx",
-        "show": false
-      },
-      "roleplay": {
-        "name": "Экскурс в ролеплей",
-        "file": "/gameplay/roleplay.mdx"
-      }
-    }
-  },
-  "addons": {
-    "group": "Дополнения",
-    "pages": {
-      "mods": {
-        "name": "Моды",
-        "file": "/addons/mods.mdx"
-      },
-      "rps": {
-        "name": "Ресурспаки",
-        "file": "/addons/resourcepacks.mdx"
-      },
-      "shaders": {
-        "name": "Шейдеры",
-        "file": "/addons/shaders.mdx"
-      }
-    }
+  "oferta": {
+    "name": "Публичная оферта",
+    "file": "/oferta.mdx"
   },
   "examples": {
     "name": "Примеры",
     "file": "/example.mdx",
-    "show": false
+    "show": true
   }
 }
