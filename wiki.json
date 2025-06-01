@@ -8,9 +8,9 @@
     "name": "О нас",
     "file": "/about.mdx"
   },
-  "oferta": {
+  "public": {
     "name": "Публичная оферта",
-    "file": "/oferta.mdx"
+    "file": "/public.mdx"
   },
   "examples": {
     "name": "Примеры",
