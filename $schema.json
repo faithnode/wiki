@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "Список страниц или групп",
+  "additionalProperties": {
+    "oneOf": [
+      {
+        "$ref": "#/definitions/page"
+      },
+      {
+        "$ref": "#/definitions/group"
+      }
+    ],
+    "description": "Ссылка по которой будет доступна страница или группа, ссылки конкатенируются, например если есть группа \"start\", у неё есть страница \"bedrock\", то для открытия страницы нужно будет перейти по адресу \"/start/bedrock\""
+  },
+  "definitions": {
+    "group": {
+      "type": "object",
+      "properties": {
+        "group": {
+          "type": "string",
+          "description": "Название группы"
+        },
+        "pages": {
+          "$ref": "#"
+        }
+      },
+      "required": [
+        "group",
+        "pages"
+      ]
+    },
+    "page": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Заголовок страницы"
+        },
+        "file": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^(/(?!pages)[^/]+)+/?\\.(mdx|md)$",
+          "description": "Путь к файлу страницы, начинается с \"/\", БЕЗ /pages"
+        },
+        "show": {
+          "type": "boolean",
+          "default": false,
+          "description": "Будет ли страница отображаться в меню вики"
+        }
+      },
+      "required": [
+        "name",
+        "file"
+      ]
+    }
+  }
+}
