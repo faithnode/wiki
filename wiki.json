@@ -23,10 +23,6 @@
         "name": "Частые ошибки",
         "file": "/guides/errors.mdx"
       },
-      "license": {
-        "name": "Как зайти без лицензии Minecraft?",
-        "file": "/guides/license.mdx"
-      },
       "cron": {
         "name": "Автоматизация действий",
         "file": "/guides/cron.mdx"
