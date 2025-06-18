@@ -2,38 +2,41 @@
   "$schema": "./$schema.json",
   "": {
     "name": "↩\uFE0F Навигатор",
-    "file": "/index.mdx"
+    "file": "/index.mdx",
+    "show": true
   } ,
   "about": {
     "name": "\uD83D\uDCCB О нас",
-    "file": "/about.mdx"
+    "file": "/about.mdx",
+    "show": true
   },
   "public": {
     "name": "\uD83D\uDCBC Публичная оферта",
-    "file": "/public.mdx"
+    "file": "/public.mdx",
+    "show": true
   },
   "pr": {
     "name": "\uD83C\uDF1F Реклама и предложения",
-    "file": "/pr.mdx"
+    "file": "/pr.mdx",
+    "show": true
   },
   "guides": {
     "group": "⚙\uFE0F Гайды",
     "pages": {
       "errors": {
         "name": "Частые ошибки",
-        "file": "/guides/errors.mdx"
+        "file": "/guides/errors.mdx",
+        "show": false
       },
       "cron": {
         "name": "Автоматизация действий",
-        "file": "/guides/cron.mdx"
+        "file": "/guides/cron.mdx",
+        "show": true
       },
       "connect_sftp": {
         "name": "Как подключиться к файлам сервера напрямую?",
-        "file": "/guides/connect_sftp.mdx"
-      },
-      "change_core": {
-        "name": "Как изменить версию Minecraft?",
-        "file": "/guides/change_core.mdx"
+        "file": "/guides/connect_sftp.mdx",
+        "show": true
       }
     }
   },
@@ -42,17 +45,19 @@
     "pages": {
       "cores": {
         "name": "Список ядер для Minecraft",
-        "file": "/resource/cores.mdx"
+        "file": "/resource/cores.mdx",
+        "show": true
       },
       "plugins": {
         "name": "Список плагинов для Minecraft",
-        "file": "/resource/plugins.mdx"
+        "file": "/resource/plugins.mdx",
+        "show": false
       }
     }
   },
   "examples": {
     "name": "\uD83E\uDEE7 Примеры",
     "file": "/example.mdx",
-    "show": true
+    "show": false
   }
 }
