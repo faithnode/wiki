@@ -8,6 +8,7 @@
 # Заполняется один раз при старте приложения
 ##
 
+
 main:
   CreationDate: '11 Мая 2021 года'
   Processor: 'AMD Ryzen 9 5950X'

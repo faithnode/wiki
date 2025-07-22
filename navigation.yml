@@ -31,7 +31,7 @@ links:
         - path: /cron
           name: "Автоматизация действий"
         - path: /sftp
-          name: "Как подключиться к файлам сервера напрямую?"
+          name: "SFTP Клиенты"
           links:
           - path: /connect-winscp
             name: "WinSCP"
