@@ -8,32 +8,38 @@
 # Заполняется один раз при старте приложения
 ##
 
-main:
-  CreationDate: '11 Мая 2021 года'
-  Processor: 'AMD Ryzen 9 5950X'
-  IndividualEntrepreneur: 'ИП Глушинский Роман Дмитриевич'
-  INN: 'ИНН 524926071605'
-  OGRNIP: 'ОГРНИП 324527500027446'
-  contact: 'Связаться с нами: admin@faithnode.host'
-  maxAllowRefundDays: 14
-links:
-  site: https://faithnode.host/
-  reviews: https://discord.com/channels/841363276620103770/992507554628390955
-  filezillaDownloadUrl: https://filezilla-project.org/
-  winscpDownloadUrl: https://winscp.net/eng/download.php
-  cronWiki: https://ru.wikipedia.org/wiki/Cron
-
 organization:
   url: https://faithnode.host/
+  vkUrl: https://vk.com/faithnode
+  telegramUrl: https://t.me/faithnode
+  discordUrl: https://discord.com/S7cbjQZJ4F
   inn: '524926071605'
   ogrnip: '324527500027446'
   createdAt: '11 Мая 2021 года'
   companyName: 'ИП Глушинский Роман Дмитриевич'
   contactEmail: 'admin@faithnode.host'
+  prEmail: 'pr@faithnode.host'
 
 pterodactyl:
   cpu: 'AMD Ryzen 9 5950X'
   maxAllowRefundDays: 14
+
+links:
+  reviewsUrl: https://discord.com/channels/841363276620103770/992507554628390955
+  filezillaDownloadUrl: https://filezilla-project.org/
+  winscpDownloadUrl: https://winscp.net/eng/download.php
+  cronWikiUrl: https://ru.wikipedia.org/wiki/Cron
+  velocityUrl: https://papermc.io/downloads/velocity
+  bungeecordUrl: https://www.spigotmc.org/wiki/bungeecord/
+  waterfallUrl: https://papermc.io/downloads/waterfall
+  vanillaUrl: https://www.minecraft.net/ru-ru/download
+  forgeUrl: https://files.minecraftforge.net/
+  fabricUrl: https://fabricmc.net/
+  paperUrl: https://papermc.io/downloads/all
+  pufferfishUrl: https://pufferfish.host/downloads
+  purpurUrl: https://purpurmc.org/
+  tuinityUrl: https://github.com/Tuinity/Tuinity
+  mohistUrl: https://mohistmc.com/
 
 # Локализация страниц
 pages:
