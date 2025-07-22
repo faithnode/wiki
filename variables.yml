@@ -8,7 +8,20 @@
 # Заполняется один раз при старте приложения
 ##
 
-
+main:
+  CreationDate: '11 Мая 2021 года'
+  Processor: 'AMD Ryzen 9 5950X'
+  IndividualEntrepreneur: 'ИП Глушинский Роман Дмитриевич'
+  INN: 'ИНН 524926071605'
+  OGRNIP: 'ОГРНИП 324527500027446'
+  contact: 'Связаться с нами: admin@faithnode.host'
+  maxAllowRefundDays: 14
+links:
+  site: https://faithnode.host/
+  reviews: https://discord.com/channels/841363276620103770/992507554628390955
+  filezillaDownloadUrl: https://filezilla-project.org/
+  winscpDownloadUrl: https://winscp.net/eng/download.php
+  cronWiki: https://ru.wikipedia.org/wiki/Cron
 
 organization:
   url: https://faithnode.host/
@@ -21,12 +34,6 @@ organization:
 pterodactyl:
   cpu: 'AMD Ryzen 9 5950X'
   maxAllowRefundDays: 14
-
-links:
-  reviewsUrl: https://discord.com/channels/841363276620103770/992507554628390955
-  filezillaDownloadUrl: https://filezilla-project.org/
-  winscpDownloadUrl: https://winscp.net/eng/download.php
-  cronWikiUrl: https://ru.wikipedia.org/wiki/Cron
 
 # Локализация страниц
 pages:
