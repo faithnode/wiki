@@ -25,14 +25,29 @@ links:
   - path: /guides
     name: "⚙️ Гайды"
     links:
-      - path: /cron
-        name: "Автоматизация действий"
-      - path: /connect_sftp
-        name: "Как подключиться к файлам сервера напрямую?"
+      - path: /pterodactyl
+        name: "Pterodactyl панель"
+        links:
+        - path: /cron
+          name: "Автоматизация действий"
+        - path: /sftp
+          name: "Как подключиться к файлам сервера напрямую?"
+          links:
+          - path: /connect-winscp
+            name: "WinSCP"
+          - path: /connect-filezilla
+            name: "FileZilla"
   - path: /resources
     name: "📦 Ресурсы"
     links:
-      - path: /cores
+      - path: /minecraft
         name: "Список ядер для Minecraft"
-      - path: /plugins
-        name: "Список плагинов для Minecraft"
+        links:
+        - path: /cores
+          name: "Список игровых ядер для Minecraft"
+        - path: /proxy-cores
+          name: "Список прокси-ядер для Minecraft"
+        - path: /plugins
+          name: "Список плагинов для Minecraft"
+  - path: /credentials
+    name: "Контакты"
