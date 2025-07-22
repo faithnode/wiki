@@ -30,13 +30,18 @@ links:
         links:
         - path: /cron
           name: "Автоматизация действий"
-        - path: /sftp
-          name: "SFTP Клиенты"
-          links:
-          - path: /connect-winscp
-            name: "WinSCP"
-          - path: /connect-filezilla
-            name: "FileZilla"
+      - path: /sftp
+        name: "SFTP Клиенты"
+        links:
+        - path: /connect-winscp
+          name: "WinSCP"
+        - path: /connect-filezilla
+          name: "FileZilla"
+      - path: /minecraft
+        name: "Minecraft"
+        links:
+            - path: /license
+              name: "Вход без лицензии"
   - path: /resources
     name: "📦 Ресурсы"
     links:
@@ -50,4 +55,4 @@ links:
         - path: /plugins
           name: "Список плагинов для Minecraft"
   - path: /credentials
-    name: "Контакты"
+    name: "📱 Контакты"
