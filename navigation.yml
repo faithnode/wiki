@@ -42,6 +42,8 @@ links:
         links:
             - path: /license
               name: "Вход без лицензии"
+            - path: /install-core
+              name: "Установка ядра сервера"
   - path: /resources
     name: "📦 Ресурсы"
     links:
@@ -52,7 +54,5 @@ links:
           name: "Список игровых ядер для Minecraft"
         - path: /proxy-cores
           name: "Список прокси-ядер для Minecraft"
-        - path: /plugins
-          name: "Список плагинов для Minecraft"
   - path: /credentials
     name: "📱 Контакты"

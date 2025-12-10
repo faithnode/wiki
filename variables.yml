@@ -16,7 +16,8 @@ organization:
   inn: '524926071605'
   ogrnip: '324527500027446'
   createdAt: '11 Мая 2021 года'
-  companyName: 'ИП Глушинский Роман Дмитриевич'
+  companyName: 'FaithNode'
+  legalEntity: 'ИП Глушинский Роман Дмитриевич'
   contactEmail: 'admin@faithnode.host'
   prEmail: 'pr@faithnode.host'
 
