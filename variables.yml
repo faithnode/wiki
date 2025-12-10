@@ -21,15 +21,29 @@ organization:
   contactEmail: 'admin@faithnode.host'
   prEmail: 'pr@faithnode.host'
 
+domainsForServers:
+  serverplay: 'ВашеНазвание.serverplay.ru'
+  20tps: 'ВашеНазвание.20tps.ru'
+
 pterodactyl:
+# Характеристики
   cpu: 'AMD Ryzen 9 5950X'
+
+questions:
   maxAllowRefundDays: 14
 
 links:
+# Важные ссылки
   reviewsUrl: https://discord.com/channels/841363276620103770/992507554628390955
+  # Прочие ссылки
+  cronWikiUrl: https://ru.wikipedia.org/wiki/Cron
+  regruUrl: https://www.reg.ru/domain/new/
+  nicUrl: https://www.nic.ru/catalog/domains/
+  cloudflareUrl: https://www.cloudflare.com/
+# Ссылки для скачивания стороннего ПО
   filezillaDownloadUrl: https://filezilla-project.org/
   winscpDownloadUrl: https://winscp.net/eng/download.php
-  cronWikiUrl: https://ru.wikipedia.org/wiki/Cron
+# Ссылки для скачивания ядер Minecraft
   velocityUrl: https://papermc.io/downloads/velocity
   bungeecordUrl: https://www.spigotmc.org/wiki/bungeecord/
   waterfallUrl: https://papermc.io/downloads/waterfall
@@ -39,8 +53,20 @@ links:
   paperUrl: https://papermc.io/downloads/all
   pufferfishUrl: https://pufferfish.host/downloads
   purpurUrl: https://purpurmc.org/
-  tuinityUrl: https://github.com/Tuinity/Tuinity
   mohistUrl: https://mohistmc.com/
+
+versions:
+# Версии Minecraft ядер
+  velocity: '1.16.4 - Последняя'
+  waterfall: '1.11 - 1.21'
+  bungeecord: '1.8.8 - Последняя'
+  vanilla: 'Последняя'
+  forge: '1.6.4 - Последняя'
+  fabric: '1.14 - Последняя'
+  paper: '1.8.8 - Последняя'
+  pufferfish: '1.17.1 - 1.21.8'
+  purpur: '1.14.1 - 1.21.10'
+  mohist: '1.7.10 | 1.12.2 | 1.16.5 | 1.18.2 | 1.19.2 | 1.19.4 | 1.20.1 | 1.20.2 | 1.21.4'
 
 # Локализация страниц
 pages:
