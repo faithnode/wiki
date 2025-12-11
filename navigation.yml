@@ -40,14 +40,10 @@ links:
       - path: /minecraft
         name: "Minecraft"
         links:
-            - path: /problems
-              name: "Частые проблемы"
             - path: /license
               name: "Вход без лицензии"
             - path: /install-core
               name: "Установка ядра сервера"
-            - path: /install-velocity
-              name: "Подключение и настройка Velocity"
             - path: /change-seed
               name: "Изменить сид сервера"
             - path: /set-icon-n-description
