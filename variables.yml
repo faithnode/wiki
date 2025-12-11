@@ -41,6 +41,7 @@ links:
   cronWikiUrl: https://ru.wikipedia.org/wiki/Cron
   domainBuyUrl: https://www.google.com/search?q=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD
   cloudflareUrl: https://www.cloudflare.com/
+  motdCreatorUrl: https://mctools.org/motd-creator
 # Ссылки для скачивания стороннего ПО
   filezillaDownloadUrl: https://filezilla-project.org/
   winscpDownloadUrl: https://winscp.net/eng/download.php
@@ -51,7 +52,7 @@ links:
   vanillaUrl: https://www.minecraft.net/ru-ru/download
   forgeUrl: https://files.minecraftforge.net/
   fabricUrl: https://fabricmc.net/
-  paperUrl: https://papermc.io/downloads/all
+  paperUrl: https://papermc.io/downloads/paper
   pufferfishUrl: https://pufferfish.host/downloads
   purpurUrl: https://purpurmc.org/
   mohistUrl: https://mohistmc.com/
