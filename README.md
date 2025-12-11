@@ -24,15 +24,16 @@
 
 ```
 /
-├── pages/           # Страницы вики
-├── assets/          # Изображения и файлы
-├── app.yml          # Конфигурация приложения
-├── metadata.yml     # Метаданные
-├── navigation.yml   # Навигация
-├── variables.yml    # Переменные
-├── makefile         # Команды сборки
-├── .gitignore       # Git конфигурация
-└── CHANGELOG.md     # Обновления
+├── pages/               # Страницы вики
+│   └── example.mdx      # Шаблон форматирования текста
+├── assets/              # Изображения и файлы
+├── app.yml              # Конфигурация приложения
+├── metadata.yml         # Метаданные
+├── navigation.yml       # Навигация
+├── variables.yml        # Переменные
+├── makefile             # Команды сборки
+├── .gitignore           # Git конфигурация
+└── CHANGELOG.md         # Обновления
 ```
 
 ## ✅ Правила участия
