@@ -9,19 +9,34 @@
 ##
 
 organization:
-  url: https://faithnode.host/
-  vkUrl: https://vk.com/faithnode
-  telegramUrl: https://t.me/faithnode
-  discordUrl: https://discord.com/S7cbjQZJ4F
-  inn: '524926071605'
-  ogrnip: '324527500027446'
-  createdAt: '11 Мая 2021 года'
-  companyName: 'FaithNode'
-  legalEntity: 'ИП Глушинский Роман Дмитриевич'
-  contactEmail: 'admin@faithnode.host'
-  prEmail: 'contact@watereks.su'
-  telegramUserWatereks: https://t.me/watereks
-  telegramUserPoma4ka: https://t.me/poma4kaMe
+  name: '{{ app.name }}'
+  legal:
+    name: 'ИП Глушинский Роман Дмитриевич'
+    inn: '524926071605'
+    ogrn: '324527500027446'
+  contact:
+    emails:
+      general: 'contact@faithnode.com'
+      support: 'help@faithnode.com'
+      abuse: 'abuse@faithnode.com'
+      partner: 'partner@faithnode.com'
+      list:
+        - email: '{{ organization.contact.emails.general }}'
+          description: 'Email для общих вопросов'
+        - email: '{{ organization.contact.emails.support }}'
+          description: 'Email для технической поддержки'
+        - email: '{{ organization.contact.emails.abuse }}'
+          description: 'Email для сообщений о нарушениях'
+        - email: '{{ organization.contact.emails.partner }}'
+          description: 'Email для рекламы и предложений'
+    social:
+      vk: 'https://vk.com/faithnode'
+      telegram: 'https://t.me/faithnode'
+      discord: 'https://discord.gg/S7cbjQZJ4F'
+
+# Данные платежей
+payments:
+  maxAllowRefundDays: 14
 
 domainsForServers:
   serverplay: 'ВашеНазвание.serverplay.ru'
@@ -73,3 +88,7 @@ versions:
 # Локализация страниц
 pages:
   index: 'Навигатор'
+  terms: 'Условия использования'
+  oferta: 'Публичная оферта'
+  contacts: 'Контакты'
+  partner: 'Реклама и предложения'
