@@ -16,3 +16,45 @@
 links:
   - path: /
     name: "↩️ {{ pages.index }}"
+  - path: /about
+    name: "📋 О нас"
+  - path: /guides
+    name: "⚙️ Гайды"
+    links:
+      - path: /pterodactyl
+        name: "Pterodactyl панель"
+        links:
+        - path: /cron
+          name: "Автоматизация действий"
+      - path: /sftp
+        name: "SFTP Клиенты"
+        links:
+        - path: /connect-winscp
+          name: "WinSCP"
+        - path: /connect-filezilla
+          name: "FileZilla"
+      - path: /minecraft
+        name: "Minecraft"
+        links:
+            - path: /license
+              name: "Вход без лицензии"
+            - path: /install-core
+              name: "Установка ядра сервера"
+            - path: /change-seed
+              name: "Изменить сид сервера"
+            - path: /set-icon-n-description
+              name: "Установка своей иконки, описания и слотов на сервере"
+            - path: /set-domain
+              name: "Установка своего домена для подключения"
+  - path: /resources
+    name: "📦 Ресурсы"
+    links:
+      - path: /minecraft
+        name: "Minecraft"
+        links:
+        - path: /cores
+          name: "Список игровых ядер для Minecraft"
+        - path: /proxy-cores
+          name: "Список прокси-ядер для Minecraft"
+  - path: /terms
+    name: "{{ pages.terms }}"

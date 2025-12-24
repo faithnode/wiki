@@ -11,6 +11,6 @@
 ##
 
 name: 'FaithNode'
-navTitle: 'Вики {{ app.name }}'
-url: 'https://faithnode.host'
+navTitle: 'Вики · {{ app.name }}'
+url: 'https://wiki.faithnode.host'
 createdAt: '2021-05-11'
