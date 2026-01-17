@@ -15,3 +15,8 @@
 
 ## 06.01.2026
 - Добавлена страница `Конфигурация ядра сервера` | Автор статьи: [Arkanum](https://github.com/lainkanum "blank")
+
+## 17.01.2026 
+- Добавлена страница `Подключение к SFTP с SSH ключом` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
+- Изменено содержание `Подключение к серверу по протоколу SFTP через FileZilla` | Автор изменений: [Watereks](https://github.com/Watereks "blank")
+- Изменено содержание `Подключение к серверу по протоколу SFTP через WinSCP` | Автор изменений: [Watereks](https://github.com/Watereks "blank")
