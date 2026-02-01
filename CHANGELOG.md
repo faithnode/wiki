@@ -27,3 +27,6 @@
 ## 20.01.2026 
 - Добавлена страница `Перенос миров между серверами` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
 - Добавлена страница `Настройка и объяснение конфига сервера server.properties` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
+
+## 02.02.2026
+- Добавлен NeoForge в `Список игровых ядер для Minecraft` | Автор изменений: [Watereks](https://github.com/Watereks "blank")
