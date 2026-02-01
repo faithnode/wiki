@@ -78,6 +78,7 @@ links:
   waterfallUrl: https://papermc.io/downloads/waterfall
   vanillaUrl: https://www.minecraft.net/ru-ru/download
   forgeUrl: https://files.minecraftforge.net/
+  neoForgeUrl: https://neoforged.net/
   fabricUrl: https://fabricmc.net/
   paperUrl: https://papermc.io/downloads/paper
   pufferfishUrl: https://pufferfish.host/downloads
@@ -91,6 +92,7 @@ versions:
   bungeecord: '1.8.8 - Последняя'
   vanilla: 'Последняя'
   forge: '1.6.4 - Последняя'
+  neoForge: '1.20.2 - 1.21.11'
   fabric: '1.14 - Последняя'
   paper: '1.8.8 - Последняя'
   pufferfish: '1.17.1 - 1.21.8'
