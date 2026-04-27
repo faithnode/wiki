@@ -30,3 +30,7 @@
 ## 02.02.2026
 - Добавлен NeoForge в `Список игровых ядер для Minecraft` | Автор изменений: [Watereks](https://github.com/Watereks "blank")
 - Добавлена страница `Список плагинов для ядра Minecraft сервера` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
+
+## 27.04.2026
+- Изменено содержание `Как сменить ядро/версию сервера Minecraft? (Paper | PurPur | Pufferfish)` | Автор изменений: [Watereks](https://github.com/Watereks "blank")
+- Добавлена страница `Как сменить ядро/версию сервера Minecraft? (Forge | NeoForge | Fabric` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
