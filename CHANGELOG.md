@@ -23,7 +23,7 @@
 - Изменено содержание `Подключение к серверу по протоколу SFTP через FileZilla` | Автор изменений: [Watereks](https://github.com/Watereks "blank")
 - Изменено содержание `Подключение к серверу по протоколу SFTP через WinSCP` | Автор изменений: [Watereks](https://github.com/Watereks "blank")
 
-## 20.01.2026 
+## 20.01.2026
 - Добавлена страница `Перенос миров между серверами` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
 - Добавлена страница `Настройка и объяснение конфига сервера server.properties` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
 
@@ -34,3 +34,6 @@
 ## 27.04.2026
 - Изменено содержание `Как сменить ядро/версию сервера Minecraft? (Paper | PurPur | Pufferfish)` | Автор изменений: [Watereks](https://github.com/Watereks "blank")
 - Добавлена страница `Как сменить ядро/версию сервера Minecraft? (Forge | NeoForge | Fabric` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
+
+## 27.06.2026
+- Добавлена страница `Соответствие версий Java для Minecraft: Java Edition` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
