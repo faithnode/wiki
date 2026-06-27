@@ -34,3 +34,6 @@
 ## 27.04.2026
 - Изменено содержание `Как сменить ядро/версию сервера Minecraft? (Paper | PurPur | Pufferfish)` | Автор изменений: [Watereks](https://github.com/Watereks "blank")
 - Добавлена страница `Как сменить ядро/версию сервера Minecraft? (Forge | NeoForge | Fabric` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
+
+## 27.06.2026 
+- Добавлена страница `Соответствие версий Java для Minecraft: Java Edition` | Автор статьи: [Watereks](https://github.com/Watereks "blank")
